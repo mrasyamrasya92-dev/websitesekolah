@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+     <head>
+    <meta charset="UTF-8">
+          <title>halaman pertama</title>
+          <style>
+            *{ box-sizing: border-box;}
+            body {
+                margin: 0;
+                padding: 20px;
+                background: #ddd;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
+                background: #fff;
+                padding: 15px;
+            }
+            h1.judul {
+                margin: 0 0 10px 0;
+                font-size: 32px;
+            }
+            nav {
+                background: #ff9900;
+                display: flex;
+            }
+            nav a {
+                color: #8b0000;
+                font-weight: bold;
+                text-decoration: none;
+                padding: 12px 20px;
+                display: inline-block;
+            }
+            nav a:hover {
+                background: rgba(0,0,0,0.1);
+            }
+            .banner {
+                width: 100%;
+                display: block;
+                margin-top: 10px;
+            }
+            .konten {
+                display: flex;
+                gap: 15px;
+                margin-top: 15px;
+                align-items: flex-start;
+            }
+            .kotak {
+                border: 1px solid #CCC;
+            }
+            .kotak h2 {
+                background: #8b0000;
+                color: #fff;
+                margin: 0;
+                padding: 10px;
+                font-size: 16px;
+                text-align: center;
+            }
+            .kotak .isi {
+                padding: 10px;
+                font-size: 14px;
+                text-align: justify;
+                background: #fff;
+            }
+            .kiri .kanan {
+                flex: 1;
+            }
+            .kiri .isi {
+                background: #ffffe6;
+            }
+            .utama {
+                flex: 2;
+            }
+            footer {
+                background: #ff9900;
+                color: #fff;
+                text-align: center;
+                padding: 10px;
+                margin-top: 15px;
+                font-size: 15px;
+            }
+          </style>
+     </head>
+     <body>
+        <div class="container">
+           <h1 class="judul">SELAMAT DATANG DI WEBSITE KU</h1>
+           <nav>
+            <a href="#">HOME</a>
+            <a href="#">PROFIL</a>
+            <a href="#">PESAN</a>
+            <a href="#">KONTAK</a>
+           </nav>
+
+        <div class="banner">
+            <img src="gambar 6.jpg" >
+        </div>
+        <div class="konten">
+        <div class="kotak kiri">
+            <h2>konten isi</h2>
+            <div class="isi">ini adalah konten di <em>sebelah kiri</em>, di dalam kotak</div>
+        </div> 
+        <div class="kotak utama">
+            <h2>konten utama</h2>
+             <div class="isi">
+             <p>ini adalah <strong>konten utama</strong>dalam WEBSITE pertama saya</p>
+             <p>lorem ipsum dolor sit amet consectetur adipisicing elit. eveniet obcaecati quisquam iste, soluta libero amet? magni delectus aliquid doloremque quisquam,suscipit asperiores quo beatae facilis voluptas commodi?</p>
+             <p>lorem ipsum dolor sit amet consectetur adipisicing elit. eveniet obcaecati quisquam iste, soluta libero amet? magni delectus aliquid doloremque quisquam,suscipit asperiores quo beatae facilis voluptas commodi?</p>
+             <p>lorem ipsum dolor sit amet consectetur adipisicing elit. eveniet obcaecati quisquam iste, soluta libero amet? magni delectus aliquid doloremque quisquam,suscipit asperiores quo beatae facilis voluptas commodi?</p>
+             <p>lorem ipsum dolor sit amet consectetur adipisicing elit. eveniet obcaecati quisquam iste, soluta libero amet? magni delectus aliquid doloremque quisquam,suscipit asperiores quo beatae facilis voluptas commodi?</p>
+             <p>lorem ipsum dolor sit amet consectetur adipisicing elit. eveniet obcaecati quisquam iste, soluta libero amet? magni delectus aliquid doloremque quisquam,suscipit asperiores quo beatae facilis voluptas commodi?</p>
+             </div>
+        </div>
+        <div class="kotak kanan">
+            <h2>komten kanan</h2>
+            <div class="isi">ini adalah konten di sebelah kanan, di dalam kotak</div>
+        </div>
+        <footer>&copy;copyright 2025
+            
+        </footer>
+        </div>
+     </body>
+</html>

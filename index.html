@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Website Ku</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #dcdcdc;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            width: 720px;
+            margin: 10px auto;
+            background-color: white;
+            padding: 10px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #111;
+        }
+
+        nav {
+            height: 29px;
+            background-color: #ff8c00;
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+
+            background-color: #990000;
+
+            padding: 8px 14px;
+            display: flex;
+            align-items: center;
+
+            border-right: 1px solid white;
+        }
+
+        nav a:hover {
+            background-color: #770000;
+        }
+
+        nav .nav-space {
+            flex: 1;
+        }
+
+        .banner {
+            width: 100%;
+            height: 393px;
+            object-fit: cover;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 165px 1fr 165px;
+            gap: 15px;
+        }
+
+
+        .column {
+            font-size: 12px;
+            line-height: 1.05;
+            color: #111;
+        }
+
+        /* Judul kolom */
+        .column-title {
+            background-color: #a00000;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+
+            padding: 7px 5px;
+            margin-bottom: 10px;
+        }
+        .left-box {
+            background-color: #f5f5d8;
+            padding-bottom: 10px;
+        }
+
+        .left-box p {
+            padding: 0 8px;
+        }
+        .left-box li{
+            list-style: none;
+        }
+        /* Kolom tengah */
+        .main-content p {
+            margin-bottom: 4px;
+            text-align: justify;
+        }
+
+        /* Kolom kanan */
+        .right-content p {
+            text-align: left;
+        }
+        .right-content li{
+            list-style: none;
+        }
+        /* Footer */
+        footer {
+            margin-top: 18px;
+            height: 25px;
+            background-color: #ff8c00;
+
+            color: white;
+            font-size: 11px;
+            font-weight: bold;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>SELAMAT DATANG DI WEBSITE KU</h1>
+        </header>
+
+        <nav>
+            <a href="malas.html">Home</a>
+            <a href="profil.html">Profil</a>
+            <a href="pesan.html">Pesan</a>
+            <a href="kontak.html">Kontak</a>
+
+            <div class="nav-space"></div>
+        </nav>
+
+        <img 
+            class="banner"
+            src="gambar 6.jpg"
+            alt="Pemandangan gunung dan pelangi"
+        >
+
+        <div class="content">
+
+            <div class="column left-box">
+
+                <div class="column-title">
+                    Daftar Keahlian
+                </div>
+                <ul>
+                    <li>Mengunakan konfig mikrotik mengunakan cisco packet trancer</li>
+                    <img src="topologi.jpg" width="85" weight="85">
+                    <li>Mengkrimping sebuah kabel rj 45</li>
+                    <img src="cramping.png" width="85" weight="85">
+                    <li>menginstanlasi ulang window</li>
+                    <img src="instalasi windows.png" width="85" weight="85">
+                    <li>mengubah alamat ip dan juga setting ip address</li>
+                    <img src="ip address.png" width="85" weight="85">
+                </ul>
+
+            </div>
+
+
+            <div class="column main-content">
+
+                <div class="column-title">
+                    Keterangan Keahlian 
+                </div>
+                <h3>Mengunakan Konfig mikrotik mengunakan cisco packet trancer</h3>
+                <p>kita di sini cara kita membuat topologi dan cara kita mengantarkan data dengan nyata</p>
+                <img src="topologi.jpg" width="100" weight="100">
+                <h3>Mengkrimping sebuah kabel rj 45</h3>
+                <p>kita di sini mengcrimping kabel mengunakan alat crimping agar kita tau cara kabel itu udah benar atau benar</p>
+                <img src="cramping.png" weight="100" width="100">
+                <h3>menginstanlasi ulang window</h3>
+                <p>cara kita untuk menginstalasi windows dan juga cara mengrufus</p>
+                <img src="instalasi windows.png" weight="100" width="100">
+                <h3>mengubah alamat ip dan juga setting ip address</h3>
+                <p>gimana cara kita untuk mengkonfigurasi alamat ip yang di tuju  </p>
+                <img src="ip address.png" weight="100" width="100">
+            </div>
+
+
+            <!-- KOLOM KANAN -->
+            <div class="column right-content">
+
+                <div class="column-title">
+                    EKRAKULIKULER
+                </div>
+        <ul>
+               <li>Organisasi mpk majelis perawakilan kelas</li>
+               <li>esport yang tertuju mengasa mainset</li>
+        </ul>
+            </div>
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            ©Copyright 2025
+        </footer>
+
+    </div>
+
+</body>
+</html>
