@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Website ku</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #dcdcdc;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    
+        .container {
+            width: 720px;
+            margin: 10px auto;
+            background-color: white;
+            padding: 10px;
+        }
+
+       
+        header h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #111;
+        }
+
+
+        nav {
+            height: 29px;
+            background-color: #ff8c00;
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+
+            background-color: #990000;
+
+            padding: 8px 14px;
+            display: flex;
+            align-items: center;
+
+            border-right: 1px solid white;
+        }
+
+        nav a:hover {
+            background-color: #770000;
+        }
+
+
+        nav .nav-space {
+            flex: 1;
+        }
+
+
+        .banner {
+            width: 100%;
+            height: 393px;
+            object-fit: cover;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+
+        .content {
+            display: flex;
+            gap: 15px;
+        }
+
+
+        .column {
+            font-size: 12px;
+            line-height: 1.05;
+            color: #111;
+        }
+
+        .column-title {
+            background-color: #a00000;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+
+            padding: 7px 5px;
+            margin-bottom: 10px;
+        }
+
+        .left-box {
+            background-color: #f5f5d8;
+            padding-bottom: 10px;
+        }
+
+        .left-box p {
+            margin-bottom: 10px;
+            text-align: justify;
+            padding: 0 8px;
+        }
+        .main-content {
+            background-color: #f5f5d8;
+            padding-bottom: 10px;
+        }
+
+        .main-content p {
+            margin-bottom: 20px;
+            text-align: justify;
+            padding: 0 10px;
+        }
+
+        footer {
+            margin-top: 18px;
+            height: 25px;
+            background-color: #ff8c00;
+
+            color: white;
+            font-size: 11px;
+            font-weight: bold;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>SELAMAT DATANG DI WEBSITE KU</h1>
+        </header>
+
+  
+        <nav aria-label="Navigation Utama">
+            <a class="active" href="index.html">Home</a>
+            <a href="profil.html">Profil</a>
+            <a href="pesan.html">Pesan</a>
+            <a href="kontak.html">Kontak</a>
+
+            <div class="nav-space"></div>
+        </nav>
+
+        <img 
+            class="banner"
+            src="gambar 6.jpg"
+            alt="makanan"
+        >
+
+        <div class="content">
+
+            <div class="column left-box">
+
+                <div class="column-title">
+                    Profil Akun
+                </div>
+
+            <p>
+                 Nama Lengkap: Muhammad rasya
+            </p>
+
+            <p>
+                Tempat, Tanggal Lahir: Surabaya,08,2009
+            </p>
+            <p>
+                kontak saya adalah whastapp sama ig
+            </p>
+            <p>
+                kontak temen saya juga punya
+            </p>
+
+            </div>
+
+
+            <div class="column main-content">
+
+                <div class="column-title">
+                   kontak teman whatsapp
+                </div>
+
+                <p>
+                   nafil: 08**********
+                </p>
+                <p>
+                    atta: 081*********
+                </p>
+                <p>
+                   satria: 08129382878363
+                </p>
+                <p>
+                   angga: 085265667352186
+                </p>
+                <p>
+                   valen: 0u766368246
+                </p>
+            </div>
+
+        </div>
+
+        <footer>
+            ©Copyright 2026
+        </footer>
+
+    </div>
+
+</body>
+</html>
